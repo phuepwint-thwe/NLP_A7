@@ -1,5 +1,6 @@
 /mlartifacts
 /venv
+/best_model_odd_student/
 app/__pycache__
 app/.pytest_cache
 *.log

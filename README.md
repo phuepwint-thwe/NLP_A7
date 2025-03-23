@@ -64,7 +64,12 @@ This project focuses on building a hate speech classification model using techni
 - Cached model loading for fast response.
 
 #### Example Outputs
-
+- Input : I don't like you.
+- Result : No Hate
+  ![No Hate](A7.1.png)
+- Input : You're so annoying sometimes.
+- Resutl : Hate
+  ![Hate](A7.2.png)
 
 #### How to Run:
 ```bash

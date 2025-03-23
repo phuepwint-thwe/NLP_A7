@@ -1,6 +1,9 @@
-# Hate Speech Classification with Knowledge Distillation and LoRA
+# NLP_A7 : Training Distillation vs LoRA
 
-This project focuses on building a hate speech classification model using techniques like **Knowledge Distillation** and **LoRA (Low-Rank Adaptation)**. A web application is also developed using **Streamlit** to make predictions in real-time.
+- **Name:** Phue Pwint Thwe  
+- **ID:** st124748
+
+This project focuses on building a hate speech classification model using techniques like **Distillation** and **LoRA (Low-Rank Adaptation)**. A web application is also developed using **Streamlit** to make predictions in real-time.
 
 ---
 
@@ -47,9 +50,10 @@ This project focuses on building a hate speech classification model using techni
 | Even-Layer    | 0.2875           | 95.9%         |
 | LoRA (Full)   | 0.3563           | 89.8%         |
 
-- Odd-Layer Student is the best performer.
-- LoRA is efficient but underperforms compared to distilled students.
-- LoRA may benefit from higher rank or longer training.
+- Odd-Layer Student is the best performing model.
+- LoRA improves over baseline but struggles to match distilled models.
+- Fine-tuning LoRA further (higher rank r=16 or longer training) may help.
+- Even-Layer model improved steadily but remains below Odd-Layer.
 
 ---
 

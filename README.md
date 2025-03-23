@@ -65,10 +65,10 @@ This project focuses on building a hate speech classification model using techni
 
 #### Example Outputs
 - Input : I don't like you.
-- Result : No Hate
+- Result : Non-Hate
   ![No Hate](A7.1.png)
 - Input : You're so annoying sometimes.
-- Resutl : Hate
+- Result : Hate
   ![Hate](A7.2.png)
 
 #### How to Run:
